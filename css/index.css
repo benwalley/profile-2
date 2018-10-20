@@ -1,0 +1,131 @@
+
+
+.mainDiv{
+	width:100vw;
+	height:100vh;
+	position:absolute;
+	top:0;
+	left:0;
+	overflow:hidden;
+	background:#0a60ff;
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.startBar{
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:50px;
+	width:100%;
+	background:#101010;
+	border-bottom:1px solid white;
+	z-index:1000000;
+}
+
+.startButton{
+	color:white;
+	float:left;
+	padding:12px;
+	font-size:1.5em;
+	font-weight:bold;
+	text-transform:uppercase;
+
+}
+
+.startButton:hover{
+	background:#1d1d1d;
+}
+
+
+.icon{
+	height:100%;
+	float:left;
+	margin:0 10px;
+	color:white;
+	padding:12px;
+	font-size:1.5em;
+}
+
+.icon:hover{
+	background:#1a1a1a;
+}
+
+.window{
+	width:600px;
+	height:400px;
+	background:white;
+	border:1px solid black;
+	position:absolute;
+	left:20px;
+	top:200px;
+	box-sizing:border-box;
+}
+
+.windowInner{
+	width:100%;
+	top:30px;
+	position:absolute;
+	height: calc(100% - 30px);
+}
+
+.windowBar{
+	height:30px;
+	width:100%;
+	position:absolute;
+	background:#d8d8d8;
+	top:0;
+	left:0;
+}
+
+.minus{
+	float:right;
+	border-left:1px solid black;
+	text-align:center;
+	width:30px;
+	height:100%;
+	padding-top:5px;
+	box-sizing:border-box;
+}
+
+.minus:hover{
+	background:#c7c7c7;
+}
+
+.size{
+	float:right;
+	border-left:1px solid black;
+	text-align:center;
+	width:30px;
+	height:100%;
+	padding-top:5px;
+	box-sizing:border-box;
+}
+
+.size:hover{
+	background:#c7c7c7;
+}
+
+.close{
+	float:right;
+	border-left:1px solid black;
+	text-align:center;
+	width:30px;
+	height:100%;
+	color:white;
+	background:red;
+	padding-top:5px;
+	box-sizing:border-box;
+}
+
+.close:hover{
+	background:#c30000;
+}
+
+.fullScreen{
+	top:0 !important;
+	left:0 !important;
+	width:100vw !important;
+	height:calc(100vh - 50px) !important;
+}
